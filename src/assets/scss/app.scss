@@ -1,0 +1,59 @@
+@import 'settings';
+@import 'foundation';
+
+table.body {
+  background-color: $primary-color;
+}
+table {
+  //settings.scss:34
+  //$container-background: transparent;
+}
+h2, h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: transparent;
+}
+h2 {
+  margin-bottom: 20px;
+  background-color: $primary-color;
+}
+img.logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+th.price {
+  padding: 20px 0;
+  font-size: 40px;
+}
+
+
+.product {
+  background-color: $white;
+  padding-top: 20px;
+  img {
+    margin:0 auto;
+  }
+
+  h3 {
+    background-color: $secondary-color;
+    padding:5px 0;
+    color:$white;
+  }
+  .price {
+    padding-left: 20px;
+    font-size: 40px;
+    color:$purple;
+    padding-top:11px;
+  }
+  .button {
+    text-transform: uppercase;
+    float: right;
+    margin-right: 20px;
+  }
+}
+.footer-text {
+  color:$white;
+  font-size: 18px;
+  margin-top: 20px;
+}
